@@ -3,8 +3,8 @@ public class Rectangle extends GeometricalShape {
     private double height;
 
 
-    public Rectangle(double x1, double y1, Calc2D shapeCalculator, double width, double height) {
-        super(x1, y1, shapeCalculator);
+    public Rectangle(double x1, double y1, double width, double height) {
+        super(x1, y1);
         this.width = width;
         this.height = height;
     }

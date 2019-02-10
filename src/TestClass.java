@@ -18,7 +18,7 @@ public class TestClass {
 //        lineCalc.lineLenght(lineCalc);
 
         Circle circle = new Circle(0, 0, 6.6);
-        circle;
+        circle.
 
 
         Rectangle rectangle = new Rectangle(0, 0, 2, 5);
