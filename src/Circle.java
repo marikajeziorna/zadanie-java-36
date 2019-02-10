@@ -1,8 +1,8 @@
 public class Circle extends GeometricalShape {
         private double r;
 
-    public Circle(double x1, double y1, double area, double area1, double r) {
-        super(x1, y1, area, area1);
+    public Circle(double x1, double y1, double r) {
+        super(x1, y1);
         this.r = r;
     }
 

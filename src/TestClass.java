@@ -17,10 +17,12 @@ public class TestClass {
 //        LineCalc lineCalc = new LineCalc();
 //        lineCalc.lineLenght(lineCalc);
 
-        Circle circle = new Circle(6.6);
+        Circle circle = new Circle(0, 0, 6.6);
+        circle;
 
 
-        Rectangle rectangle = new Rectangle(6, 7);
+        Rectangle rectangle = new Rectangle(0, 0, 2, 5);
+        rectangle.getArea();
 
 
         Calc3D calc3D_1 = new Ball(5);

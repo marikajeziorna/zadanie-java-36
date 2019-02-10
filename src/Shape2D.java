@@ -1,16 +1,26 @@
 abstract public class Shape2D extends Shape{
-   private double area;
 
-    public Shape2D(double x1, double y1, double area) {
+    public Shape2D(double x1, double y1) {
         super(x1, y1);
-        this.area = area;
     }
 
-    public double getArea() {
-        return area;
+    @Override
+    public double getX1() {
+        return super.getX1();
     }
 
-    public void setArea(double area) {
-        this.area = area;
+    @Override
+    public void setX1(double x1) {
+        super.setX1(x1);
+    }
+
+    @Override
+    public double getY1() {
+        return super.getY1();
+    }
+
+    @Override
+    public void setY1(double y1) {
+        super.setY1(y1);
     }
 }

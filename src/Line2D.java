@@ -2,8 +2,8 @@ public class Line2D extends Shape2D {
     private double x2;
     private double y2;
 
-    public Line2D(double x1, double y1, double area, double x2, double y2) {
-        super(x1, y1, area);
+    public Line2D(double x1, double y1, double x2, double y2) {
+        super(x1, y1);
         this.x2 = x2;
         this.y2 = y2;
     }

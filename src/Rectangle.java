@@ -1,11 +1,10 @@
 public class Rectangle extends GeometricalShape {
     private double width;
     private double height;
-    private ShapeCalculator shapeCalculator = new ShapeCalculator();
 
 
-    public Rectangle(double x1, double y1, double area, double area1, double width, double height) {
-        super(x1, y1, area, area1);
+    public Rectangle(double x1, double y1, Calc2D shapeCalculator, double width, double height) {
+        super(x1, y1, shapeCalculator);
         this.width = width;
         this.height = height;
     }
@@ -27,8 +26,9 @@ public class Rectangle extends GeometricalShape {
     }
 
     public double getArea() {
-        return shapeCalculator.rectangleArea(this);
+        return this.shapeCalculator.rectangleArea(this);
     }
+
 }
 
 //Pole prostokąta P = a*b
