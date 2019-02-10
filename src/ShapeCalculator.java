@@ -1,4 +1,4 @@
-public class ShapeCalculator extends LineCalc implements Calc2D, Calc3D{
+public class ShapeCalculator extends LineCalc implements Calc2D, Calc3D {
     private final double pi = 3.14;
 
     public double getPi() {
@@ -17,7 +17,7 @@ public class ShapeCalculator extends LineCalc implements Calc2D, Calc3D{
 
     @Override
     public double ballVolume(Ball ball) {
-        return getPi() * Math.pow(ball.getR(), 3) * 4 / 3;
+        return (4 * getPi() / 3) * Math.pow(ball.getR(), 3);
     }
 
     @Override

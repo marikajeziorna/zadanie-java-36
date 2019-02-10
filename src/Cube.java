@@ -1,7 +1,7 @@
 public class Cube extends Shape3D {
-   private double width;
-   private double height;
-   private double deepness;
+    private double width;
+    private double height;
+    private double deepness;
 
     public Cube(double x1, double y1, double z, double volume, double width, double height, double deepness) {
         super(x1, y1, z, volume);
@@ -33,9 +33,8 @@ public class Cube extends Shape3D {
     public void setDeepness(double deepness) {
         this.deepness = deepness;
     }
+
+    public double getArea() {
+        return this.shapeCalculator.cubeVolume(this);
+    }
 }
-
-
-
-//Objętość V = a^3
-//Pole całkowite Pc = 6a^2

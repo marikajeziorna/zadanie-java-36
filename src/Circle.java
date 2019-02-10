@@ -18,5 +18,3 @@ public class Circle extends GeometricalShape {
         return this.shapeCalculator.circleArea(this);
     }
 }
-//Wzór na pole koła o danym promieniu:
-//P = π⋅r2

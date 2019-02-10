@@ -28,8 +28,4 @@ public class Rectangle extends GeometricalShape {
     public double getArea() {
         return this.shapeCalculator.rectangleArea(this);
     }
-
 }
-
-//Pole prostokąta P = a*b
-//Obwód prostokąta O = 2a + 2b

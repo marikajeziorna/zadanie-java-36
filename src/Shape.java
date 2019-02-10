@@ -11,15 +11,7 @@ abstract public class Shape {
         return x1;
     }
 
-    public void setX1(double x1) {
-        this.x1 = x1;
-    }
-
     public double getY1() {
         return y1;
-    }
-
-    public void setY1(double y1) {
-        this.y1 = y1;
     }
 }

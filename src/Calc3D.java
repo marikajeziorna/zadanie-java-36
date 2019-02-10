@@ -1,6 +1,5 @@
 public interface Calc3D {
 
-
     /**
      *  – oblicza pojemność przekazanej jako argument kuli
      */
