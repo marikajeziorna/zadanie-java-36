@@ -14,4 +14,4 @@ public class Circle extends GeometricalShape {
     }
 }
 //Wzór na pole koła o danym promieniu:
-//P=π⋅r2
+//P = π⋅r2

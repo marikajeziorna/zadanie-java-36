@@ -1,25 +1,28 @@
 public class ShapeCalculator extends LineCalc implements Calc2D, Calc3D{
-    private double result;
+    private final double pi = 3.14;
 
-
-    @Override
-    public void circleArea(Circle circle) {
-        result = Math.pow(circle.getR(), 2) * circle.getPi();
+    public double getPi() {
+        return pi;
     }
 
     @Override
-    public void rectangleArea(Rectangle rectangle) {
-        result = rectangle.getA() * rectangle.getB();
+    public double circleArea(Circle circle) {
+        return Math.pow(circle.getR(), 2) * getPi();
     }
 
     @Override
-    public void ballVolume(Ball ball) {
-        result = ball.getPi() * Math.pow(ball.getR(), 3) * 4 / 3;
+    public double rectangleArea(Rectangle rectangle) {
+        return rectangle.getWidth() * rectangle.getHeight();
     }
 
     @Override
-    public void cubeVolume(Cube cube) {
-        result = Math.pow(cube.getA(),3);
+    public double ballVolume(Ball ball) {
+        return getPi() * Math.pow(ball.getR(), 3) * 4 / 3;
+    }
+
+    @Override
+    public double cubeVolume(Cube cube) {
+        return (cube.getWidth() * cube.getHeight() * cube.getDeepness());
     }
 }
 

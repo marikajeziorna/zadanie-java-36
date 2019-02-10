@@ -1,56 +1,27 @@
 public class Line2D extends Shape2D {
-    private int x1;
-    private int x2;
-    private int y1;
-    private int y2;
-    private int line;
+    private double x2;
+    private double y2;
 
-    public Line2D(int x1, int x2, int y1, int y2, int line) {
-        this.x1 = x1;
+    public Line2D(double area, double x2, double y2) {
+        super(area);
         this.x2 = x2;
-        this.y1 = y1;
         this.y2 = y2;
-        this.line = line;
     }
 
-    public int getX1() {
-        return x1;
-    }
-
-    public void setX1(int x1) {
-        this.x1 = x1;
-    }
-
-    public int getX2() {
+    public double getX2() {
         return x2;
     }
 
-    public void setX2(int x2) {
+    public void setX2(double x2) {
         this.x2 = x2;
     }
 
-    public int getY1() {
-        return y1;
-    }
-
-    public void setY1(int y1) {
-        this.y1 = y1;
-    }
-
-    public int getY2() {
+    public double getY2() {
         return y2;
     }
 
-    public void setY2(int y2) {
+    public void setY2(double y2) {
         this.y2 = y2;
-    }
-
-    public int getLine() {
-        return line;
-    }
-
-    public void setLine(int line) {
-        this.line = line;
     }
 }
 

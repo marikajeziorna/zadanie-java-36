@@ -1,26 +1,26 @@
 public class Rectangle extends GeometricalShape {
-    private double b;
-    private double a;
+    private double width;
+    private double height;
 
-    public Rectangle(double b, double a) {
-        this.b = b;
-        this.a = a;
+    public Rectangle(double width, double height) {
+        this.width = width;
+        this.height = height;
     }
 
-    public double getB() {
-        return b;
+    public double getWidth() {
+        return width;
     }
 
-    public void setB(double b) {
-        this.b = b;
+    public void setWidth(double width) {
+        this.width = width;
     }
 
-    public double getA() {
-        return a;
+    public double getHeight() {
+        return height;
     }
 
-    public void setA(double a) {
-        this.a = a;
+    public void setHeight(double height) {
+        this.height = height;
     }
 }
 

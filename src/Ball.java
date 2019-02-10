@@ -1,7 +1,8 @@
 public class Ball extends Shape3D {
         private double r;
 
-    public Ball(double r) {
+    public Ball(double x1, double y1, double z, double volume, double r) {
+        super(x1, y1, z, volume);
         this.r = r;
     }
 

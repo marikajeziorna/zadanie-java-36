@@ -5,7 +5,7 @@
      * //P=π⋅r2
      */
 
-    void circleArea(Circle circle);
+    double circleArea(Circle circle);
 
 
     /**
@@ -13,7 +13,7 @@
      * //Pole prostokąta P = a*b
      */
 
-   void rectangleArea(Rectangle rectangle);
+   double rectangleArea(Rectangle rectangle);
 
 }
 
